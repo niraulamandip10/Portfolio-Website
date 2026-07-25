@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mandip Niraula | QA Engineer & Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">MN<span class="dot">.</span></a>
+      <nav class="nav__links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#skills" onclick="closeMenu()">Skills</a>
+      <a href="#projects" onclick="closeMenu()">Projects</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Hello, I'm</p>
+      <h1 class="hero__name">Mandip Niraula</h1>
+      <h2 class="hero__role">Quality Assurance Engineer <span class="amp">&amp;</span> Developer</h2>
+      <p class="hero__tagline">🐛 Finding bugs before they find your users — you're welcome.</p>
+      <p class="hero__bio">
+        I'm a QA professional and part-time developer with a passion for building reliable,
+        user-friendly software. I ensure product quality through rigorous testing while
+        crafting modern web solutions and continuously expanding my technical skills.
+      </p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View My Work</a>
+        <a href="#contact" class="btn btn--outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="avatar">
+        <div class="avatar__initials">MN</div>
+      </div>
+      <div class="badge badge--1"><span>✔</span> QA Expert</div>
+      <div class="badge badge--2"><span>⚙</span> .NET &amp; C#</div>
+      <div class="badge badge--3"><span>📍</span> Nepal</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">Who I am</p>
+        <h2 class="section__title">About Me</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>
+            I'm a <strong>Quality Assurance professional</strong> and part-time developer based in
+            Kanakai-1, Durgapur, Jhapa, Nepal — passionate about delivering software that works
+            correctly, consistently, and elegantly.
+          </p>
+          <p>
+            My work spans both sides of the software lifecycle: I design and execute test strategies to
+            catch defects early, and I build applications using modern tools like <strong>.NET Core,
+            C#, Python, and PostgreSQL</strong>. I'm a firm believer that quality isn't found at the
+            end — it's built in from day one.
+          </p>
+          <p>
+            When I'm not hunting bugs (professionally, of course), I'm expanding my developer toolkit,
+            working on personal projects, and exploring new technologies that make software better.
+          </p>
+        </div>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__num">3+</span>
+            <span class="stat__label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">5+</span>
+            <span class="stat__label">Technologies</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">2</span>
+            <span class="stat__label">Projects Built</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">0</span>
+            <span class="stat__label">Bugs Left Behind 😄</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">What I work with</p>
+        <h2 class="section__title">Skills &amp; Technologies</h2>
+      </div>
+      <div class="skills__grid">
+        <div class="skill-card">
+          <span class="skill-card__icon">🔷</span>
+          <h3>.NET Core</h3>
+          <p>Building robust backend services, REST APIs, and MVC web applications with Microsoft's modern cross-platform framework.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__icon">⚙️</span>
+          <h3>C#</h3>
+          <p>Object-oriented programming for enterprise-grade applications, business logic, and backend automation scripts.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__icon">🐍</span>
+          <h3>Python</h3>
+          <p>Scripting, test automation, and data processing — the Swiss Army knife of my developer toolkit.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__icon">🌐</span>
+          <h3>WordPress</h3>
+          <p>Designing and managing content-driven websites with custom themes, plugins, and CMS configuration.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__icon">🐘</span>
+          <h3>PostgreSQL</h3>
+          <p>Relational database design, complex querying, and optimization for data-driven applications.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__icon">✅</span>
+          <h3>QA &amp; Testing</h3>
+          <p>Manual and automated testing, test planning, bug tracking, and building quality processes that actually stick.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">What I've built</p>
+        <h2 class="section__title">Projects</h2>
+      </div>
+      <div class="projects__grid">
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <div class="project-card__icon">🎓</div>
+            <div class="project-card__tags">
+              <span class="tag">C#</span>
+              <span class="tag">.NET Core</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Student Result Management System</h3>
+          <p class="project-card__desc">
+            A full-featured web application for managing and publishing student academic results.
+            Includes student enrollment, grade entry by teachers, automated report generation,
+            and an admin dashboard for institutional oversight — built with .NET Core MVC and PostgreSQL.
+          </p>
+          <div class="project-card__footer">
+            <a href="https://github.com/niraulamandip10" target="_blank" rel="noopener" class="project-link">
+              View on GitHub →
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <div class="project-card__icon">🖥️</div>
+            <div class="project-card__tags">
+              <span class="tag">C#</span>
+              <span class="tag">.NET Core MVC</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Hardware Service Center</h3>
+          <p class="project-card__desc">
+            A service management platform for a hardware repair center built with .NET Core MVC.
+            Handles job tracking, customer records, inventory management, and invoice generation
+            — streamlining day-to-day workshop operations end to end.
+          </p>
+          <div class="project-card__footer">
+            <a href="https://github.com/niraulamandip10" target="_blank" rel="noopener" class="project-link">
+              View on GitHub →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">Let's connect</p>
+        <h2 class="section__title">Get In Touch</h2>
+        <p class="section__sub">
+          Whether you have a project in mind, want to collaborate, or just want to say hi —
+          my inbox is always open (and bug-free, I promise).
+        </p>
+      </div>
+      <div class="contact__grid">
+        <a href="mailto:niraulamandip10@gmail.com" class="contact-card">
+          <span class="contact-card__icon">✉️</span>
+          <h4>Email</h4>
+          <p>niraulamandip10@gmail.com</p>
+        </a>
+        <a href="https://www.linkedin.com/in/mandip-niraula-827b8a304" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-card__icon">💼</span>
+          <h4>LinkedIn</h4>
+          <p>mandip-niraula-827b8a304</p>
+        </a>
+        <a href="https://github.com/niraulamandip10" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#1E293B"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.31.468-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23A11.51 11.51 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .322.216.694.825.576C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </span>
+          <h4>GitHub</h4>
+          <p>niraulamandip10</p>
+        </a>
+      </div>
+      <div class="contact__cta">
+        <a href="mailto:niraulamandip10@gmail.com" class="btn btn--primary btn--lg">Say Hello 👋</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Mandip Niraula · Built with ☕ and a healthy obsession with quality.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
